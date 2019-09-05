@@ -4,8 +4,8 @@ import math
 def list_gen(num):
     num_list = []
 
-    for i in range(num**2):
-        num_list.append(random.randint(num, num**2))
+    for i in range(num*5):
+        num_list.append(random.randint(num, num*5))
 
     return num_list
 
